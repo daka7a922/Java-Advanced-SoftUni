@@ -8,7 +8,6 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class _09_ListOfPredicates {
-
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
