@@ -1,4 +1,4 @@
-package sayhelloextended;
+package say_hello_extended;
 
 public abstract class BasePerson {
 

@@ -1,10 +1,11 @@
-package carshopextended;
+package car_shop_extended;
 
 public class Audi extends CarImpl implements Rentable {
 
+    private Integer minRentDay;
     private Double pricePerDay;
 
-    private Integer minRentDay;
+
 
 
     public Audi(String model, String color, Integer horsePower, String countryProduced, Integer minRentDay, double pricePerDay) {
@@ -29,7 +30,7 @@ public class Audi extends CarImpl implements Rentable {
         StringBuilder sb = new StringBuilder();
 
         String firstRow = super.toString();
-        String secondRow = "Minimum rental period of %d days. Price per day %f".formatted(getMinRentDay(), getPricePerDay());
+        String secondRow = "Minimum rental period of %d days. Price per day %f".formatted(minRentDay, pricePerDay);
 
         sb.append(firstRow).append(System.lineSeparator());
         sb.append(secondRow);

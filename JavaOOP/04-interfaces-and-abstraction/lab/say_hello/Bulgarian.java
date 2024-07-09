@@ -1,13 +1,13 @@
-package sayhello;
+package say_hello;
 
-public class European implements Person{
+public class Bulgarian implements Person {
 
     private String name;
 
-    public European(String name) {
+    public Bulgarian (String name){
+
         this.name = name;
     }
-
     @Override
     public String getName() {
         return name;
@@ -15,6 +15,6 @@ public class European implements Person{
 
     @Override
     public String sayHello() {
-        return "Hello";
+        return "Здравей";
     }
 }

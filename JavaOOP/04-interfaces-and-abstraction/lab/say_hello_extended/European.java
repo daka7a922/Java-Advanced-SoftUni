@@ -1,4 +1,4 @@
-package sayhelloextended;
+package say_hello_extended;
 
 public class European extends BasePerson implements Person {
 

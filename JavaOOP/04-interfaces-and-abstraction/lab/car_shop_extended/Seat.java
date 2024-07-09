@@ -1,4 +1,4 @@
-package carshopextended;
+package car_shop_extended;
 
 public class Seat extends  CarImpl implements Sellable {
 

@@ -1,4 +1,4 @@
-package sayhello;
+package say_hello_extended;
 
 public interface Person {
 

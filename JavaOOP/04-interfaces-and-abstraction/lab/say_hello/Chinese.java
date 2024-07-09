@@ -1,4 +1,4 @@
-package sayhello;
+package say_hello;
 
 public class Chinese implements Person {
 

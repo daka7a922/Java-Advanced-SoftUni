@@ -1,4 +1,4 @@
-package sayhello;
+package say_hello;
 
 import java.util.ArrayList;
 import java.util.List;
